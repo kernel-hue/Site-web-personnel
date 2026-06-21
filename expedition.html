@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expedition</title>
+    <link rel="stylesheet" href="contenu/css/styles.css">
+</head>
+<body>
+    <header class="headplus">
+        <div class="imgtitle">
+            <img src="contenu/multimedia/image/logo.png" alt="logo de klaus" id="logo">
+            <figcaption>KLAUS COURSES AGENCY</figcaption>
+        </div>
+        <div class="lien">
+            <h1 id="tex">Vous ne ferez plus jamais vos courses de la même facon</h1>
+            <details class="selector">
+                <summary>
+                    <img src="contenu/multimedia/image/12796771.png" alt="logoclick" id="logoclick">
+                    <figcaption>Menu</figcaption>
+                </summary>
+                <nav class="list">
+                    <a href="accueil.html">Accueil</a>
+                    <a href="placement_personnel.html">Personnel</a>
+                    <a href="#contacts">Nous Contacter</a>
+                </nav>
+            </details>
+            
+        </div>
+    </header>
+    <main class="main">
+        <h3 id="text5">DÉTAILS DE L'EXPÉDITION</h3>
+        <div class="container">
+            <aside class="barright">
+                <div class="infocard">
+                <h4>BESOIN D'AIDE</h4>
+				   <p style="font-size: 0.8rem;">
+                <strong>Question :</strong> Preuve de livraison ?<br>
+                <strong>Réponse :</strong> Photo du bordereau signée envoyée sur WhatsApp.
+                </p>
+                </div>
+	            <form class="infocard form2">
+                <fieldset id="fieldset1">
+                    <legend>VERIFIER VOTRE COMMANDE:</legend>
+		            <label for="boncom">Numéro de commande: 
+                    <input type="number" id="boncom" placeholder="123456789"/>
+                    </label>
+		            <input type="button" value="Valider"/>
+                </fieldset>
+	            </form>
+                <section class="infocard">
+                    <label for="avis">Votre avis sur notre service.</label>
+		            <textarea id="avis" name="avis" rows="4" placeholder="Dites nous ce que vous pensez de Klaus Courses AGENCY"></textarea>
+                </section>
+                <div class=" moines">
+                <img src="contenu/multimedia/image/Delivery Dashing GIF by DoorDash.gif" alt="gif2" class="gif2">
+            </div>
+            </aside>
+
+            <div class="register">
+                <form id="form1">
+            <fieldset id="fieldset2">
+                <legend>Expéditeur</legend>
+                <label for="nom">Nom: <br>
+                    <input type="text" id="nom" placeholder="Noritoshi" required>
+                </label>
+                <label for="prenom">Prénom: <br>
+                    <input type="text" id="prenom" placeholder="Kamo" required>
+                </label>
+                <label for="tel">Téléphone: <br>
+                    <input type="tel" id="tel" placeholder="+237 123456789" required>
+                </label>
+                <label for="email">Email: <br>
+                    <input type="email" id="email" required>
+                </label>
+                <label for="lieudepart">Lieu de départ: <br>
+                    <select>
+                        <optgroup label="Cameroun">
+                                <option>Douala</option>
+                                <option>Yqoundé</option>
+                                <option>Bertoua</option>
+                                <option>Ngaoundéré</option>
+                                <option>Ebolowa</option>
+                                <option>Maroua</option>
+                                <option>Garoua</option>
+                                <option>Limbé</option>
+                                <option>Bamenda</option>
+                                <option>Bafoussam</option>
+                        </optgroup>
+                        <optgroup label="France">
+                            <option>Paris</option>
+                            <option>Marseille</option>
+                            <option>Amiens</option>
+                            <option>Perpignan</option>
+                            <option>Lorient</option>
+                            <option>Monaco</option>
+                            <option>Brest</option>
+                            <option>Caen</option>
+                            <option>Rouen</option>
+                            <option>Nice</option>
+                        </optgroup>
+                    </select>
+                </label>
+                <label for="typecolis">Type de Colis: 
+                    <select>
+                        <option>Plis</option>
+                        <option>Carton</option>
+                        <option>Fragile</option>
+                    </select>
+                </label>
+
+            </fieldset>
+            <fieldset id="fieldset3">
+                <legend>Destinataire</legend>
+                <label for="nom">Nom: <br>
+                    <input type="text" id="nom" placeholder="Noritoshi" required>
+                </label>
+                <label for="prenom">Prénom: <br>
+                    <input type="text" id="prenom" placeholder="Kamo" required>
+                </label>
+                <label for="tel">Téléphone: <br>
+                    <input type="tel" id="tel" placeholder="+237 123456789" required>
+                </label>
+                <label for="email">Email: <br>
+                    <input type="email" id="email" required>
+                </label>
+                <label for="lieudepart">Lieu de retrait:
+                    <select>
+                        <optgroup label="Cameroun">
+                                <option>Douala</option>
+                                <option>Yqoundé</option>
+                                <option>Bertoua</option>
+                                <option>Ngaoundéré</option>
+                                <option>Ebolowa</option>
+                                <option>Maroua</option>
+                                <option>Garoua</option>
+                                <option>Limbé</option>
+                                <option>Bamenda</option>
+                                <option>Bafoussam</option>
+                        </optgroup>
+                        <optgroup label="France">
+                            <option>Paris</option>
+                            <option>Marseille</option>
+                            <option>Amiens</option>
+                            <option>Perpignan</option>
+                            <option>Lorient</option>
+                            <option>Monaco</option>
+                            <option>Brest</option>
+                            <option>Caen</option>
+                            <option>Rouen</option>
+                            <option>Nice</option>
+                        </optgroup>
+                    </select>
+                </label>
+
+            </fieldset>
+            <input type="button" value="ESTIMER MA COURSE">
+                </form>
+            </div>
+        </div>
+    </main>
+     <footer id="contacts">
+        <section class="left">
+            <h3>Contactez KLAUS Courses Agency</h3>
+            <address>
+                <a href="tel:+237655747678">
+                    <img src="contenu/multimedia/image/whatsapp-social-media-logo-icon-free-png.jpg" alt="whatsapp" id="whatsapp">
+                    <figcaption>+237 655747678</figcaption>
+                </a>
+                    <a href="mailto:enpeknyemb@gmail.com">
+                        <img src="contenu/multimedia/image/logo gmail.png" id="whatsapp">
+                        <figcaption>enpeknyemb@gmail.com</figcaption>
+                    </a>
+                <p>
+                    <strong>Siège social: </strong>DOUALA, LogBaba
+                </p>    
+            </address>
+        </section>
+        <nav class="center">
+            <h3>Informations utiles</h3>
+            <a href="">Mentions Légales</a>
+            <a href="">Conditions générales</a>
+            <a href="">Aide / F.A.Q</a>
+        </nav>
+        <section class="copy">
+            <p>
+                <small>
+                    &copy; 2026 KLAUS Courses Agency. Tous droits réservés
+                </small>
+            </p>
+        </section>
+    </footer>
+</body>
+</html>
